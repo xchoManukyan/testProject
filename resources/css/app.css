@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import '../../node_modules/vuetify/dist/vuetify.css';
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+button:focus {outline:0;}
+input:focus {outline:0;}
+
+a{
+    text-decoration: none;
+}
